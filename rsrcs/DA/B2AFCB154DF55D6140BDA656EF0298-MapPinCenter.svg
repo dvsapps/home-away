@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="31px" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Map/PinCenter2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-26.7%" y="-49.2%" width="153.4%" height="198.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="CenterOfMapPin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1025.000000, -578.000000)" id="Map/PinCenter1" fill="#353E44">
+            <g transform="translate(1035.000000, 576.000000)">
+                <g id="Map/PinCenter2" transform="translate(-6.000000, 0.000000)">
+                    <path d="M20.8641975,20.9193914 C17.814321,18.5653424 11.1453333,16.6503906 6,16.6503906 C0.854666667,16.6503906 -0.852345679,18.5653424 2.19753086,20.9193914 C4.97797531,23.0654791 10.7649383,24.8419932 15.6651852,25.1396036 L20.4691358,28.8475357 L23.1358025,28.8475357 L18.3318519,25.1396036 C22.4609383,24.8419932 23.644642,23.0654791 20.8641975,20.9193914 Z" id="Shape" fill-rule="nonzero" opacity="0.3" filter="url(#filter-1)"></path>
+                    <g id="position-marker" transform="translate(13.000000, 2.000000)" fill-rule="nonzero">
+                        <path d="M18,9 C18,4.038 13.963,0 9,0 C4.037,0 0,4.038 0,9 C0,13.624 3.507,17.442 8,17.941 L8,27 L10,27 L10,17.941 C14.493,17.442 18,13.624 18,9 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

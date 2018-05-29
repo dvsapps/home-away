@@ -1,0 +1,9 @@
+.ui-datepicker .full-selected a:after,.ui-datepicker .full-selected a:before,.ui-datepicker .full-selected-hover a:after,.ui-datepicker .full-selected-hover a:before{border-color:#0067db!important;opacity:1}
+.thematic-mixin .thematic-heading{font-size:70px}
+.thematic-mixin .thematic-description{font-size:18px;line-height:26px}
+@media(min-width:992px) and (max-width:1199px){.benefits .benefits-list h3{font-size:20px}
+}
+@media(min-width:768px) and (max-width:991px){.benefits .benefits-list h3{font-size:16px}
+}
+.ie8 .header-bce .logo .svg-logo{display:none}
+.ie8 .search-form .input-group-addon{position:relative}

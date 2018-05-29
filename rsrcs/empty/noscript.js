@@ -1,0 +1,1 @@
+//alert("No Script :P");

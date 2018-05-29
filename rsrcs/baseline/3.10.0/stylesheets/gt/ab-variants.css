@@ -1,0 +1,46 @@
+.body--gt-north-star-btns-1 .btn-primary:not(.btn-inverse):not([disabled]) {
+  position: relative;
+  background: -webkit-linear-gradient(left, #0067db, #00a0ff);
+  background: linear-gradient(to right, #0067db, #00a0ff);
+  box-shadow: 0 4px 18px 0 rgba(34, 138, 230, 0.38);
+  z-index: 100;
+  -webkit-transition: none;
+          transition: none;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.body--gt-north-star-btns-1 .btn-primary:not(.btn-inverse):not([disabled])::before {
+  border-radius: inherit;
+  background-image: -webkit-linear-gradient(#0067db, #0067db);
+  background-image: linear-gradient(#0067db, #0067db);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  z-index: -100;
+  -webkit-transition: opacity 400ms;
+          transition: opacity 400ms;
+}
+.body--gt-north-star-btns-1 .btn-primary:not(.btn-inverse):not([disabled]):hover::before {
+  opacity: 1;
+}
+.body--gt-north-star-btns-1 .btn-primary:not(.btn-inverse):not([disabled]).btn-sm {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.body--gt-north-star-btns-1 .btn-primary:not(.btn-inverse):not([disabled]).btn-icon {
+  padding: 0;
+}
+.body--gt-north-star-btns-1 .btn-default:not(.btn-inverse):not([disabled]) {
+  border-color: #cce1f8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.05);
+}
+.body--gt-north-star-btns-1 .btn-default:not(.btn-inverse):not([disabled]):hover {
+  box-shadow: none;
+  border-color: #0067db;
+}
